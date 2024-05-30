@@ -32,6 +32,7 @@ def kenaRazia(date, data):
     tilang_info_list = [{"name": name, "tilang": total_tilang} for name, total_tilang in tilang_info.items()]
     return tilang_info_list
 
+#main
 vehicles = [
     {"name": "Denver", "plat": "B 2791 KDS", "type": "Mobil", "rute": ["TB Simatupang", "Panglima Polim", "Depok", "Senen Raya"]},
     {"name": "Toni", "plat": "B 1212 JBB", "type": "Mobil", "rute": ["Pintu Besar Selatan", "Panglima Polim", "Depok", "Senen Raya", "Kemang"]},
